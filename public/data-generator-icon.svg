@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="95" fill="#42b883" opacity="0.2"/>
+  
+  <!-- 数据卡片 -->
+  <rect x="45" y="60" width="110" height="80" rx="6" fill="white" stroke="#42b883" stroke-width="4"/>
+  
+  <!-- 卡片标题栏 -->
+  <rect x="45" y="60" width="110" height="20" rx="6" fill="#42b883"/>
+  
+  <!-- 数据行 -->
+  <line x1="55" y1="95" x2="145" y2="95" stroke="#42b883" stroke-width="3"/>
+  <line x1="55" y1="115" x2="145" y2="115" stroke="#42b883" stroke-width="3"/>
+  
+  <!-- 标签 -->
+  <rect x="55" y="85" width="25" height="6" rx="2" fill="#42b883"/>
+  <rect x="55" y="105" width="25" height="6" rx="2" fill="#42b883"/>
+  <rect x="55" y="125" width="25" height="6" rx="2" fill="#42b883"/>
+  
+  <!-- 值 -->
+  <rect x="90" y="85" width="50" height="6" rx="2" fill="#42b883" opacity="0.5"/>
+  <rect x="90" y="105" width="50" height="6" rx="2" fill="#42b883" opacity="0.5"/>
+  <rect x="90" y="125" width="50" height="6" rx="2" fill="#42b883" opacity="0.5"/>
+  
+  <!-- 生成符号 - 旋转箭头 -->
+  <path d="M155 45C155 40.5817 151.418 37 147 37C142.582 37 139 40.5817 139 45C139 49.4183 142.582 53 147 53" stroke="#42b883" stroke-width="4" stroke-linecap="round"/>
+  <path d="M147 53L153 48M147 53L141 48" stroke="#42b883" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- 星形闪光 - 表示生成 -->
+  <path d="M160 45L162 50L167 52L162 54L160 59L158 54L153 52L158 50L160 45Z" fill="#42b883"/>
+  
+  <!-- 隐私/安全符号 -->
+  <circle cx="40" cy="45" r="8" fill="#42b883"/>
+  <path d="M36 45L39 48L45 42" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 
